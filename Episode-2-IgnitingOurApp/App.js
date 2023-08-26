@@ -10,6 +10,8 @@ import  ReactDOM  from "react-dom/client";
 /**
  * HMR :- hot module replacement
  * File watcher algorithm
+ * Minify
+ * BUNDLING
  */
 
 const header1 = React.createElement("h1",{},"Namaste everyone");
