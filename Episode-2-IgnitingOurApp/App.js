@@ -4,12 +4,14 @@
  
 // Dependency :- Dependency means my project depends on lot of packages  
 
+// Parcel-cache ? :- 
+
 import React from "react";
 import  ReactDOM  from "react-dom/client";
 
 /**
  * HMR :- hot module replacement
- * File watcher algorithm
+ * File watcher algorithm :- Algorithm for the file watching is written in c++ because its very fast. It just keep    track of all the files which are chaging in the real time and tells the server to reload.
  * Minify
  * BUNDLING
  */
