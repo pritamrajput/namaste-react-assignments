@@ -6,14 +6,31 @@
 
 // Parcel-cache ? :- 
 
+// Dist folder :- It keeps the file minified for us
+
 import React from "react";
 import  ReactDOM  from "react-dom/client";
 
+// Parcel is a beast because it does the following things :-
 /**
  * HMR :- hot module replacement
  * File watcher algorithm :- Algorithm for the file watching is written in c++ because its very fast. It just keep    track of all the files which are chaging in the real time and tells the server to reload.
  * Minify
  * BUNDLING
+ * cleaning our code
+ * Parcel manages all the development and production differences
+ * superfast build algoritm.
+ * Parcel do image optimisation as well :- it will do image optimization of the images which are present in our project and it does not do optimization of the images coming from backend.
+ * caching while development
+ * compression
+ * compatible with older version of browser
+ * Add polyfills
+ * Parcel gives us the functionality that we can build our App on https (HTTPS on development machine). we can do npx parcel index.html --https to run our app on https. why https ? :- because somethings runs only on https.
+ * zero config
+ * 
+ * 
+ * 
+ * Transitive dependencies
  */
 
 const header1 = React.createElement("h1",{},"Namaste everyone");
