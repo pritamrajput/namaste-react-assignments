@@ -27,7 +27,7 @@ import  ReactDOM  from "react-dom/client";
  * Add polyfills
  * Parcel gives us the functionality that we can build our App on https (HTTPS on development machine). we can do npx parcel index.html --https to run our app on https. why https ? :- because somethings runs only on https.
  * zero config
- * 
+ * Tree shaking
  * 
  * 
  * Transitive dependencies
