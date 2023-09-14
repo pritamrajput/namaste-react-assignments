@@ -1428,7 +1428,7 @@ const Body = ()=>{
 
       {/*using map to loop*/
         restaurantList.map((restaurant)=>{
-          return <RestaurantCard {...restaurant.info}/>
+          return <RestaurantCard {...restaurant.info} key={restaurant.info.id}/>
         })
       }
     </div>
